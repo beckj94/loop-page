@@ -6,7 +6,7 @@
     "serve": "vue-cli-service serve",
     "build": "npm run compile:sass && vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "compile:sass": "node-sass src/assets/scss/app.scss --output-style compressed -o public/css/",
+    "compile:sass": "node-sass src/assets/scss/app.scss --output-style compressed -o src/assets/css/",
     "watch:sass": "nodemon -e scss -x npm run compile:sass"
   },
   "dependencies": {
