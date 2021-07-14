@@ -1,13 +1,87 @@
+$news-headline-height: 380px;
+
 #headline {
-    .container {
-        display: flex;
-        justify-content: space-around;
-        flex-wrap: wrap;
-        // .w-25 {
-        //     width: 25%;
-        // }
-        // .w-50 {
-        //     width: 50%;
-        // }
+    position: relative;
+    bottom: 140px;
+    #headlines {
+        clip-path: polygon(0 0, 100% 30%, 100% 100%, 0% 100%);
+        background-color: black;
+    }
+    .tile {
+        &.news-headline-container {
+            padding: 14em 15px 15px 15px;
+            height: $news-headline-height;
+            .date {
+                display: flex;
+                align-items: baseline;
+            }
+            .news-headline {
+                color: $main-color;
+                text-transform: uppercase;
+                font-size: 20px;
+                font-weight: bold;
+                margin-bottom: 10px;
+            }
+        }
+        &.calendar-map {
+            &#image-map-2 {
+                padding: 8em 15px 15px 15px;
+            }
+            &#image-map-1 {
+                padding: 8em 15px 15px 15px;
+            }
+            .date, .date-title, .date-subtitle {
+                text-transform: uppercase;
+                font-weight: bold;
+            }
+            .date {
+                font-size: 50px;
+                margin-bottom: 10px;
+                line-height: 1em;
+            }
+            .date-title {
+                color: $main-color;
+                font-size: 30px;
+            }
+            .date-subtitle {
+                font-size: 20px;
+            }
+        }
+        &#image-boat {
+            background-image: url('/images/boat.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 560px;
+        }
+        &#image-map-1 {
+            background-image: url('/images/map-croatia-1.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            height: $news-headline-height;
+            clip-path: polygon(0 30%, 100% 0, 100% 100%, 0% 100%);
+        }
+        &#image-map-2 {
+            background-image: url('/images/map-croatia-2.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 280px;
+        }
+        &#image-flag {
+            background-image: url('/images/croatia.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 280px;
+        }
+        &#image-boat-small {
+            background-image: url('/images/on-the-boat.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 280px;
+        }
     }
 }
