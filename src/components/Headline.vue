@@ -56,10 +56,22 @@
             </div>
             <div class="row no-gutters">
                 <div class="col-sm-12 col-md-6">
-                    <div class="tile">news bilder</div>
+                    <div class="tile tile-black" id="news-bilder">
+                        <img src="/images/icons/newspaper.png" class="text-center" />
+                        <div>
+                            news+<br>
+                            bilder
+                        </div>
+                    </div>
                 </div>
                 <div class="col-sm-12 col-md-6">
-                    <div class="tile">segelteam</div>
+                    <div class="tile tile-black">
+                        <img src="/images/icons/newspaper.png" />
+                        <div>
+                            segelteam<br>
+                            termine 2021
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

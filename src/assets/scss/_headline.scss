@@ -25,7 +25,7 @@ $news-headline-height: 380px;
         }
         &.calendar-map {
             &#image-map-2 {
-                padding: 8em 15px 15px 15px;
+                padding: 4em 15px 15px 15px;
             }
             &#image-map-1 {
                 padding: 8em 15px 15px 15px;
@@ -82,6 +82,42 @@ $news-headline-height: 380px;
             background-position: center;
             background-repeat: no-repeat;
             height: 280px;
+        }
+        &.tile-black {
+            min-height: 280px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            background-color: black;
+            color: white;
+            font-weight: bold;
+            text-transform: uppercase;
+            text-align: center;
+            font-size: 30px;
+            line-height: 1em;
+            img {
+                margin-bottom: 15px;
+            }
+            &#news-bilder {
+                position: relative;
+                &:before {
+                    clip-path: polygon(100% 0, 0% 100%, 100% 100%);
+                    filter: saturate(45%);
+                    content: ' ';
+                    display: block;
+                    position: absolute;
+                    left: 0;
+                    top: 0;
+                    width: 100%;
+                    height: 100%;
+                    opacity: 0.4;
+                    background-image: url('/images/boats.jpg');
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    background-position: center;
+                }
+            }
         }
     }
 }
