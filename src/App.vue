@@ -7,6 +7,8 @@
         <Banner />
         <!-- headline -->
         <Headline />
+        <!-- news read -->
+        <NewsRead />
         <!-- crew -->
         <!-- footer -->
     </div>
@@ -16,6 +18,7 @@
 import Header from '@/components/Header.vue'
 import Banner from '@/components/Banner.vue'
 import Headline from '@/components/Headline.vue'
+import NewsRead from '@/components/NewsRead.vue'
 
 export default {
     name: 'App',
@@ -23,6 +26,7 @@ export default {
         Header,
         Banner,
         Headline,
+        NewsRead,
     }
 }
 </script>

@@ -1,0 +1,37 @@
+#news-read {
+    h1, h3 {
+        text-transform: uppercase;
+        text-align: center;
+        font-weight: bold;
+    }
+    h1 {
+        font-size: 50px;
+    }
+    h3 {
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+    .divider {
+        width: 40%;
+        margin: 0 auto;
+        height: 1px;
+        background-color: grey;
+        margin-bottom: 4em;
+    }
+    #news-body {
+        column-count: 2;
+        text-align: justify;
+        column-gap: 2em;
+        margin-bottom: 2em;
+    }
+    #news-footer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-image: url('/images/timeline.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+        min-height: 260px;
+        background-position-x: right;
+    }
+}
