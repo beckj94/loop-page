@@ -1,0 +1,30 @@
+#crew {
+    color: white;
+    position: relative;
+    bottom: 140px;
+    #clipped-top {
+        background-color: black;
+        height: 140px;
+        width: 100%;
+        clip-path: polygon(100% 0, 0% 100%, 100% 100%);
+    }
+    h1, h3 {
+        text-transform: uppercase;
+        text-align: center;
+        font-weight: bold;
+    }
+    h1 {
+        font-size: 50px;
+    }
+    h3 {
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+    .divider {
+        width: 40%;
+        margin: 0 auto;
+        height: 1px;
+        background-color: white;
+        margin-bottom: 4em;
+    }
+}

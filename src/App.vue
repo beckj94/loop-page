@@ -10,6 +10,7 @@
         <!-- news read -->
         <NewsRead />
         <!-- crew -->
+        <Crew />
         <!-- footer -->
     </div>
 </template>
@@ -19,6 +20,7 @@ import Header from '@/components/Header.vue'
 import Banner from '@/components/Banner.vue'
 import Headline from '@/components/Headline.vue'
 import NewsRead from '@/components/NewsRead.vue'
+import Crew from '@/components/Crew.vue'
 
 export default {
     name: 'App',
@@ -27,6 +29,7 @@ export default {
         Banner,
         Headline,
         NewsRead,
+        Crew,
     }
 }
 </script>
