@@ -1,16 +1,11 @@
 <template>
     <div id="app">
-        <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
-        <!-- header -->
         <Header />
-        <!-- banner -->
         <Banner />
-        <!-- headline -->
         <Headline />
-        <!-- news read -->
         <NewsRead />
-        <!-- crew -->
         <Crew />
+        <Footer />
         <!-- footer -->
     </div>
 </template>
@@ -21,6 +16,7 @@ import Banner from '@/components/Banner.vue'
 import Headline from '@/components/Headline.vue'
 import NewsRead from '@/components/NewsRead.vue'
 import Crew from '@/components/Crew.vue'
+import Footer from '@/components/Footer.vue'
 
 export default {
     name: 'App',
@@ -30,6 +26,7 @@ export default {
         Headline,
         NewsRead,
         Crew,
+        Footer,
     }
 }
 </script>
