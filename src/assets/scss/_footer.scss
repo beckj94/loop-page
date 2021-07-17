@@ -1,3 +1,33 @@
 #footer {
-    
+    font-size: 13px;
+    margin-top: -7em;
+    padding-bottom: 3em;
+    ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: flex-end;
+        li {
+            a {
+                color: black;
+            }
+            &.active {
+                text-decoration: underline;
+            }
+            &:not(:last-child) {
+                margin-right: 2em;
+            }
+        }
+    }
+    @media screen and (max-width: $breakpoint-small) {
+        #copyright {
+            text-align: center;
+            margin-bottom: 2em;
+        }
+        ul {
+            margin-top: 2em;
+            justify-content: center;
+        }
+    }
 }

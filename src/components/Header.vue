@@ -3,10 +3,10 @@
         <div class="container">
             <div id="header-menu">
                 <ul>
-                    <li>about us</li>
-                    <li>gallery</li>
-                    <li>crew</li>
-                    <li>kontakt</li>
+                    <li><a href="#">about us</a></li>
+                    <li><a href="#">gallery</a></li>
+                    <li><a href="#">crew</a></li>
+                    <li><a href="#">kontakt</a></li>
                 </ul>
             </div>
             <div id="header-logo">

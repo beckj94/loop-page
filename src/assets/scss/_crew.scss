@@ -27,9 +27,30 @@
         background-color: white;
         margin-bottom: 4em;
     }
+    #filters {
+        margin-bottom: 2em;
+        ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            li {
+                cursor: pointer;
+                &.active {
+                    text-decoration: underline;
+                }
+                &:not(:last-child) {
+                    margin-right: 2em;
+                }
+            }
+        }
+    }
     #crew-list {
         display: flex;
         flex-wrap: wrap;
+        &.loading {
+            opacity: 0.6;
+        }
         .crew-tile {
             width: 25%;
             cursor: pointer;
@@ -42,12 +63,6 @@
                 .member-profile-image {
                     background-blend-mode: difference;
                 }
-            //     width: 40%;
-            //     .member-data {
-            //         width: 100%;
-            //         padding: 0 0 30px 30px;
-            //         visibility: visible;
-            //     }
             }
             .member-profile-image {
                 background-blend-mode: saturation;
@@ -61,7 +76,6 @@
                 display: flex;
                 flex-direction: column;
                 justify-content: flex-end;
-                // align-items: center;
                 width: 50%;
                 padding: 0 0 15px 15px;
                 .member-name {
