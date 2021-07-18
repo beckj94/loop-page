@@ -7,6 +7,7 @@
         <Crew />
         <Footer />
         <!-- footer -->
+        <div id="popup-backdrop"></div>
     </div>
 </template>
 

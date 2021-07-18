@@ -22,12 +22,20 @@
     }
     @media screen and (max-width: $breakpoint-small) {
         #copyright {
+            align-items: center;
+            justify-content: center;
+            display: flex;
             text-align: center;
             margin-bottom: 2em;
         }
         ul {
             margin-top: 2em;
-            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            flex-direction: column;
+            li:not(:last-child) {
+                margin: 0 0 1em 0;
+            }
         }
     }
 }
