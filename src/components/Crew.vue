@@ -9,10 +9,18 @@
             </div>
             <div id="filters">
                 <ul>
-                    <li @click="startLoadingFilter('all')" :class="{'active': activeFilter == 'all'}">Show all</li>
-                    <li @click="startLoadingFilter('trim')" :class="{'active': activeFilter == 'trim'}">Trim</li>
-                    <li @click="startLoadingFilter('tactics')" :class="{'active': activeFilter == 'tactics'}">Tactics</li>
-                    <li @click="startLoadingFilter('helmsman')" :class="{'active': activeFilter == 'helmsman'}">Helmsman</li>
+                    <li @click="startLoadingFilter('all')" :class="{'active': activeFilter == 'all'}">
+                        Show all
+                    </li>
+                    <li @click="startLoadingFilter('trim')" :class="{'active': activeFilter == 'trim'}">
+                        Trim
+                    </li>
+                    <li @click="startLoadingFilter('tactics')" :class="{'active': activeFilter == 'tactics'}">
+                        Tactics
+                    </li>
+                    <li @click="startLoadingFilter('helmsman')" :class="{'active': activeFilter == 'helmsman'}">
+                        Helmsman
+                    </li>
                 </ul>
             </div>
             <div class="text-center"><span v-if="loading">Loading...</span></div>
@@ -143,9 +151,6 @@ export default {
     },
     mounted() {
         this.getMembers()
-        // for(let i=0; i<10; i++) {
-        //     this.crew.push(crewJson[i])
-        // }
     }
 }
 </script>

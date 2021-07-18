@@ -5,32 +5,36 @@
                 <div class="col-sm-12 col-md-6 row no-gutters" id="headlines">
                     <div class="col-sm-12 col-md-6 bg-body">
                         <div class="tile news-headline-container">
-                            <div class="date">
-                                <img src="/images/icons/calendar-grey.png" class="mr-2"/>
-                                <span class="text-grey">23 mai 2021</span>
-                            </div>
-                            <div class="news-headline">News headline</div>
-                            <p>Lorem Ipsum. Proin gravida nibh velit auctor aliquet. Aenean sollicitudin.</p>
+                            <a href="#">
+                                <div class="date">
+                                    <img src="/images/icons/calendar-grey.png" class="mr-2"/>
+                                    <span class="text-grey">23 mai 2021</span>
+                                </div>
+                                <div class="news-headline">News headline</div>
+                                <p>Lorem Ipsum. Proin gravida nibh velit auctor aliquet. Aenean sollicitudin.</p>
+                            </a>
                         </div>
                     </div>
                     <div class="col-sm-12 col-md-6 bg-black">
                         <div class="tile news-headline-container">
-                            <div class="date">
-                                <img src="/images/icons/calendar-grey.png" class="mr-2"/>
-                                <span class="text-grey">23 mai 2021</span>
-                            </div>
-                            <div class="news-headline">News headline</div>
-                            <p class="text-white">Lorem Ipsum. Proin gravida nibh velit auctor aliquet. Aenean sollicitudin.</p>
+                            <a href="#">
+                                <div class="date">
+                                    <img src="/images/icons/calendar-grey.png" class="mr-2"/>
+                                    <span class="text-grey">23 mai 2021</span>
+                                </div>
+                                <div class="news-headline">News headline</div>
+                                <p class="text-white">Lorem Ipsum. Proin gravida nibh velit auctor aliquet. Aenean sollicitudin.</p>
+                            </a>
                         </div>
                     </div>
                 </div>
                 <div class="col-sm-12 col-md-6">
-                    <div class="tile calendar-map" id="image-map-1">
+                    <a href="#" class="tile calendar-map" id="image-map-1">
                         <div class="date">17 mai</div>
                         <div class="date-title">headline beitrag 2021</div>
                         <div class="date-subtitle">subtitle</div>
                         <p>Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor.</p>
-                    </div>
+                    </a>
                 </div>
             </div>
             <div class="row no-gutters">
@@ -39,12 +43,12 @@
                 </div>
                 <div class="col-sm-12 col-md-6 row no-gutters">
                     <div class="col-sm-12">
-                        <div class="tile calendar-map" id="image-map-2">
+                        <a  href="#" class="tile calendar-map" id="image-map-2">
                             <div class="date">03 okt</div>
                             <div class="date-title">headline beitrag 2021</div>
                             <div class="date-subtitle">subtitle ort - jahr</div>
                             <p>Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor.</p>
-                        </div>
+                        </a>
                     </div>
                     <div class="col-sm-12 col-md-6">
                         <div class="tile" id="image-flag"></div>
@@ -64,14 +68,14 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-12 col-md-6">
-                    <div class="tile tile-black">
+                <div href="#" class="col-sm-12 col-md-6">
+                    <a href="#" class="tile tile-black">
                         <img src="/images/icons/newspaper.png" />
                         <div>
                             segelteam<br>
                             termine 2021
                         </div>
-                    </div>
+                    </a>
                 </div>
             </div>
         </div>

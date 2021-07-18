@@ -10,7 +10,7 @@
                 </ul>
             </div>
             <div id="header-logo">
-                <img src="/images/team-logo.png">
+                <a href="/"><img src="/images/team-logo.png"></a>
             </div>
         </div>
     </div>
