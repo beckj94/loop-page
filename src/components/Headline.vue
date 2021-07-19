@@ -85,8 +85,11 @@
                     <div class="d-flex align-items-baseline mb-4">
                         <img src="/images/icons/calendar-grey.png" class="mr-2"><b class=text-grey>23. MAI 2021</b>
                     </div>
+                    <div id="mobile-close" @click="closeNews()">
+                        <img src="/images/icons/icon-close.png" />
+                    </div>
                     <div class="row">
-                        <div class="col col-md-6">
+                        <div class="col-sm-12 col-md-6">
                             <h1>
                                 NEWSARTIKEL <br>
                                 HEADLINE
@@ -97,7 +100,7 @@
                             <p>Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat psum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit. Sed ut imperdiet nisi. Proin condimentum fermentum nunc. Etiam pharetra, erat sed fermentum feugiat, velit mauris egestas quam, ut aliquam massa nisl quis neque. Suspendisse in orci enim. Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
                             <p>Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit.</p>
                         </div>
-                        <div class="col col-md-6">
+                        <div class="col-sm-12 col-md-6">
                             <div id="news-images-gallery">
                                 <div class="gallery-navigation left">
                                     <img src="/images/icons/arrow-left.png"/>
@@ -167,7 +170,7 @@
 <script>
 export default {
     name: 'Headline',
-     data(){
+    data(){
         return{
             newsOpened: false,
         }

@@ -25,7 +25,6 @@
         margin-bottom: 2em;
     }
     #news-footer {
-        
         display: flex;
         align-items: center;
         justify-content: center;
@@ -38,6 +37,19 @@
             position: relative;
             z-index: 2;
             margin-left: 10em;
+        }
+    }
+}
+@media screen and (max-width: $breakpoint-small) {
+    #news-read {
+        #news-body {
+            column-count: 1;
+        }
+        #news-footer {
+            img {
+                max-width: 120px;
+                margin-left: 0;
+            }
         }
     }
 }

@@ -6,7 +6,6 @@
         <NewsRead />
         <Crew />
         <Footer />
-        <!-- footer -->
         <div id="popup-backdrop"></div>
     </div>
 </template>
@@ -28,6 +27,6 @@ export default {
         NewsRead,
         Crew,
         Footer,
-    }
+    },
 }
 </script>
